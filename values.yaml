@@ -1,0 +1,15 @@
+app:
+  name: backend
+  # group: app
+  replicaCount: 1
+  container:
+    image: docker.io/tienshawn/api-patch:1.0
+    port: 5000
+    imagePullPolicy: Always
+    config: []
+    env:
+      - key: key
+        value: value
+  service:
+    port: 5000
+    nodePort: 30005 #api nodePort, access with http://<node-ip>:30005/api/
