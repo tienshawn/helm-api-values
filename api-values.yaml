@@ -8,4 +8,4 @@ app:
     # protocol: TCP
   service:
     port: 5000
-    nodePort: 30005 #api nodePort, access with http://<node-ip>:30005/api/
+    nodePort: 30005    #api nodePort, access with http://<node-ip>:30005/api/
