@@ -3,7 +3,7 @@ app:
   # group: app
   replicaCount: 1
   container:
-    image: docker.io/tienshawn/student-api-cont:702eceac
+    image: docker.io/tienshawn/student-api-cont:4752fad6
     port: 5000
     imagePullPolicy: Always
     config: []
